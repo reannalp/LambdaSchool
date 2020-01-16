@@ -2,4 +2,4 @@
 
 Branch naming convention:
 
-u#/##-# (unit#/sprint#module#-project#)
+u#/##-# (unit#/unit#sprint#module#-project#)
