@@ -58,8 +58,14 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Pacifico', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -81,11 +87,16 @@ hr {
 }
 
 header {
-	margin: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #0273D9;
+	overflow: hidden;
+	text-align: center;
 }
 nav {
-	margin: 20px 0px 50px 0px;
-	vertical-align: middle;
+	margin: 30px 0px 30px 0px;
+	vertical-align: top;
 	display: inline-block;
 }
 nav a {
@@ -93,15 +104,17 @@ nav a {
 	text-decoration: none;
 	text-align: center;
 	font-size: 14px;
-	color: grey;
+	color: black;
 	font-family: 'Titillium Web', sans-serif;
 }	
 .logo {
+	margin-top: 20px;
 	margin-left: 80px;
 }
 
 .intro {
 	text-align: right;
+	margin-top: 120px;
 }
 .intro-title {
 	display: inline-block;
