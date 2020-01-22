@@ -53,14 +53,118 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	width: auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h2, h3, h4, h5 {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+	width: 877px;
+	margin: auto;
+}
+
+hr {
+	height: 1px;
+	border: 0px;
+	border-top: 1px solid black;
+	padding: 0px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #0273D9;
+	overflow: hidden;
+	text-align: center;
+}
+nav {
+	margin: 30px 0px 30px 0px;
+	vertical-align: top;
+	display: inline-block;
+}
+nav a {
+	margin: 25px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+}	
+.logo {
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.intro {
+	display: flex;
+	margin-top: 120px;
+	justify-content: space-between;
+	align-items: center;
+}
+.intro-title {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.intro h1 {
+	font-size: 75px;
+	letter-spacing: 3px;
+}
+.intro button {
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	color: black;
+	padding: 2px 40px;
+}
+
+.content-top {
+	display: flex;
+	width: 100%;
+}
+
+.subsection1 {
+	width: 50%;
+	flex-flow: row wrap;
+}
+
+.middle-img {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.content-bottom {
+	display: flex;
+	width: 100%;
+}
+.subsection2 {
+	width: 33%;
+}
+
+footer {
+	line-height: 18px;
+}
+
+.copy {
+	margin: 30px;
+	font-size: 14px;
+	text-align: center;
+}
