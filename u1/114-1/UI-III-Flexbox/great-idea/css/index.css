@@ -79,6 +79,10 @@ hr {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+hr.foot {
+	height: 2px;
+	background: #000;
+}
 
 header {
 	position: fixed;
@@ -190,9 +194,31 @@ button.rounded {
 footer {
 	line-height: 18px;
 }
+.services-footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.services-footer-content {
+	width: 48%;
+}
+.services-footer ul {
+	margin: 15px;
+	justify-content: flex-start;
+	list-style-type: square;
+}
 
+.services-footer ul li {
+	padding: 5px;
+}
 .copy {
 	margin: 30px;
 	font-size: 14px;
+	text-align: center;
+}
+.copy-services {
+	margin: 30px;
+	margin-top: 60px;
+	font-size: 16px;
 	text-align: center;
 }
