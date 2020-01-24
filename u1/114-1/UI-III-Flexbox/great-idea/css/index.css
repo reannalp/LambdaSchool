@@ -222,3 +222,37 @@ footer {
 	font-size: 16px;
 	text-align: center;
 }
+
+.values-container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+.values-intro h2 {
+	display: flex;
+	font-size: 28px;
+	justify-content: center;
+	align-content: center;
+}
+.values-intro {
+	width: 98%;
+	padding: 1%;
+	margin: 1%;
+	background: #f4f4f4;
+	border: 1px solid #000;
+}
+.values-box {
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	background: #f4f4f4;
+	border: 1px solid #000;
+}
+.values-box-more {
+	width:64%;
+	padding: 1%;
+	margin: 1%;
+	background: #f4f4f4;
+	border: 1px solid #000;
+}
