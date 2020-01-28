@@ -172,6 +172,7 @@ button.rounded {
 	width: 100%;
 }
 
+
 .subsection1 {
 	width: 50%;
 	flex-flow: row wrap;
@@ -235,6 +236,7 @@ footer {
 	justify-content: center;
 	align-content: center;
 }
+
 .values-intro {
 	width: 98%;
 	padding: 1%;
