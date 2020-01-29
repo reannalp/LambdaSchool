@@ -261,7 +261,7 @@ footer {
 
 /* Tablet view */
 @media only screen and (max-width: 800px) {
-
+	
 	header {
 		display: flex;
 		flex-direction: column-reverse;
@@ -282,7 +282,8 @@ footer {
 		color: grey;
 		font-family: 'Titillium Web', sans-serif;
 	}
-	
+
+	/* Need the Innovation block to be smaller, centered, and out from underneath the header.*/
 	.intro img {
 		display: none;
 	}
