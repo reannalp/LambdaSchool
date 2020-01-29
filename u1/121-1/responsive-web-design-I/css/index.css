@@ -262,6 +262,30 @@ footer {
 /* Tablet view */
 @media only screen and (max-width: 800px) {
 
+	header {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		background: white;
+	}	
+	header a {
+		align-self: center;
+	}
+	nav {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	nav a {
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: bold;
+		color: grey;
+		font-family: 'Titillium Web', sans-serif;
+	}
+	
+	.intro img {
+		display: none;
+	}
 }
 
 /* Mobile view */
