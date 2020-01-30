@@ -178,33 +178,31 @@ hr.foot {
 }
 
 header {
+	display: flex;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	background: white;
 	overflow: hidden;
-	text-align: center;
+	justify-content: space-around;
 }
 
 nav {
-	margin: 30px 0px 30px 0px;
-	vertical-align: top;
-	display: inline-block;
+	display: flex;
 }
 
 nav a {
 	margin: 25px;
 	text-decoration: none;
-	text-align: center;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: bold;
 	color: grey;
 	font-family: 'Titillium Web', sans-serif;
 }
 
 .logo {
-	margin-top: 20px;
-	margin-left: 80px;
+	margin-top: 6%;
+	margin-left: auto;
 }
 
 .intro {
@@ -371,6 +369,10 @@ footer {
 
 /* Tablet view */
 @media only screen and (max-width: 800px) {
+	img:not(.logo) {
+		width: 100%;
+		align-self: center;
+	}
 
 	header {
 		position: static;
@@ -392,30 +394,6 @@ footer {
 		justify-content: space-evenly;
 	}
 
-	nav a {
-		text-decoration: none;
-		font-size: 14px;
-		font-weight: bold;
-		color: grey;
-		font-family: 'Titillium Web', sans-serif;
-	}
-
-	.services {
-		margin-top: auto;
-		width: 100%;
-		display: flex;
-		flex-flow: column wrap;
-	}
-	.services-header-img {
-		width: 100%;
-	}
-	.services h1 {
-		margin: 3% 0;
-	}
-	.services p {
-		font-size: .75em;
-	}
-
 	.intro {
 		display: flex;
 		justify-content: center;
@@ -433,6 +411,26 @@ footer {
 
 	.middle-img {
 		width: 100%;
+	}
+
+	/* services  */
+	.services {
+		margin-top: auto;
+		width: 100%;
+		display: flex;
+		flex-flow: column wrap;
+	}
+
+	.services-header-img {
+		width: 100%;
+	}
+
+	.services h1 {
+		margin: 3% 0;
+	}
+
+	.services p {
+		font-size: .75em;
 	}
 }
 
@@ -454,6 +452,7 @@ footer {
 		margin: auto;
 		border-bottom: 1px solid darkslategrey;
 	}
+
 	nav a {
 		font-size: 1.2em;
 		color: #B5B0B0;
@@ -463,18 +462,37 @@ footer {
 		justify-content: center;
 		border-top: 1px solid darkslategrey;
 	}
+
 	.intro {
 		margin-top: 5%;
 	}
+
 	hr {
 		border-top: 2px solid black;
 	}
-	.content-top, .content-bottom {
+
+	.content-top,
+	.content-bottom {
 		flex-flow: column;
 	}
-	.subsection1, .subsection2 {
+
+	.subsection1,
+	.subsection2 {
 		width: 100%;
 		padding: 2%;
 		margin-bottom: 5%;
+	}
+
+	/*services */
+	.content-box {
+		width: 100%;
+	}
+
+	.services-footer {
+		flex-flow: column wrap;
+	}
+
+	.services-footer-content {
+		width: 100%;
 	}
 }
