@@ -1,0 +1,498 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: auto;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+	width: 877px;
+	margin: auto;
+}
+
+hr {
+	height: 1px;
+	border: 0px;
+	border-top: 1px solid black;
+	padding: 0px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+hr.foot {
+	height: 2px;
+	background: #000;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	justify-content: space-around;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	margin: 25px;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	color: grey;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+	margin-top: 6%;
+	margin-left: auto;
+}
+
+.intro {
+	display: flex;
+	margin-top: 120px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.services,
+.about {
+	margin-top: 80px;
+}
+
+.intro-title {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro h1 {
+	font-size: 75px;
+	letter-spacing: 3px;
+}
+
+button {
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	background: white;
+	color: black;
+	padding: 2px 40px;
+}
+
+button.rounded {
+	border-radius: 5px;
+	justify-content: flex-start;
+	margin-top: 5%;
+	font-size: 12px;
+	padding: 8px 40px;
+}
+
+.content-container {
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.services,
+.about h1 {
+	margin-top: 30px;
+	font-size: 26px;
+}
+
+.content-box {
+	width: 48%;
+	margin-bottom: 3%;
+	padding: 3%;
+	border: 1px solid black;
+	background: #f4f4f4;
+}
+
+.content-top {
+	display: flex;
+	width: 100%;
+}
+
+
+.subsection1 {
+	width: 50%;
+	flex-flow: row wrap;
+}
+
+.middle-img {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.content-bottom {
+	display: flex;
+	width: 100%;
+}
+
+.subsection2 {
+	width: 33%;
+}
+
+footer {
+	line-height: 18px;
+}
+
+.services-footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.services-footer-content {
+	width: 48%;
+}
+
+.services-footer ul {
+	margin: 15px;
+	justify-content: flex-start;
+	list-style-type: square;
+}
+
+.services-footer ul li {
+	padding: 5px;
+}
+
+.copy {
+	margin: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.copy-services {
+	margin: 30px;
+	margin-top: 60px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.values-container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.values-intro h2 {
+	display: flex;
+	font-size: 28px;
+	justify-content: center;
+	align-content: center;
+}
+
+.values-intro {
+	width: 98%;
+	padding: 1%;
+	margin: 1%;
+	background: #f4f4f4;
+	border: 1px solid #000;
+}
+
+.values-box {
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	background: #f4f4f4;
+	border: 1px solid #000;
+}
+
+.values-box-more {
+	width: 64%;
+	padding: 1%;
+	margin: 1%;
+	background: #f4f4f4;
+	border: 1px solid #000;
+}
+
+/* Tablet view */
+@media only screen and (max-width: 800px) {
+	img:not(.logo) {
+		width: 100%;
+		align-self: center;
+	}
+
+	header {
+		position: static;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	header a {
+		display: flex;
+		align-items: center;
+	}
+
+	header a .logo {
+		margin: 20px auto 0;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.intro {
+		display: flex;
+		justify-content: center;
+		margin-top: auto;
+	}
+
+	.intro img {
+		display: none;
+	}
+
+	.container {
+		width: 100%;
+		padding: 2%;
+	}
+
+	.middle-img {
+		width: 100%;
+	}
+
+	/* services  */
+	.services {
+		margin-top: auto;
+		width: 100%;
+		display: flex;
+		flex-flow: column wrap;
+	}
+
+	.services-header-img {
+		width: 100%;
+	}
+
+	.services h1 {
+		margin: 3% 0;
+	}
+
+	.services p {
+		font-size: .75em;
+	}
+}
+
+/* Mobile view */
+@media only screen and (max-width: 500px) {
+	header {
+		position: static;
+	}
+
+	header a .logo {
+		margin: 3% auto 3%;
+	}
+
+	nav {
+		display: flex;
+		width: 98%;
+		flex-direction: column;
+		align-items: center;
+		margin: auto;
+		border-bottom: 1px solid darkslategrey;
+	}
+
+	nav a {
+		font-size: 1.2em;
+		color: #B5B0B0;
+		width: 100%;
+		margin: auto;
+		padding: 5%;
+		justify-content: center;
+		border-top: 1px solid darkslategrey;
+	}
+
+	.intro {
+		margin-top: 5%;
+	}
+
+	hr {
+		border-top: 2px solid black;
+	}
+
+	.content-top,
+	.content-bottom {
+		flex-flow: column;
+	}
+
+	.subsection1,
+	.subsection2 {
+		width: 100%;
+		padding: 2%;
+		margin-bottom: 5%;
+	}
+
+	/*services */
+	.content-box {
+		width: 100%;
+	}
+
+	.services-footer {
+		flex-flow: column wrap;
+	}
+
+	.services-footer-content {
+		width: 100%;
+	}
+}
