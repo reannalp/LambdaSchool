@@ -12,8 +12,8 @@
 - [X] [Sprint Challenge](https://github.com/reannalp/Sprint-Challenge--User-Interface)
 
 #### Sprint 2 - Advanced CSS
-- [ ] Responsive Design I
-- [ ] Responsive Design II
+- [X] [Responsive Design I](https://github.com/reannalp/LambdaSchool/tree/master/u1/121-1/responsive-web-design-I)
+- [X] [Responsive Design II](https://github.com/reannalp/LambdaSchool/tree/122-1/u1/122-1/portfolio-website) | [Live site](https://reannalp.github.io)
 - [ ] Preprocessing I
 - [ ] Preprocessing II
 - [ ] Sprint Challenge
