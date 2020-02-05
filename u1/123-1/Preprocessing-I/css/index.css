@@ -145,7 +145,7 @@ table {
 .aStyle {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: #282425;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -156,6 +156,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: #282425;
 }
 h1 {
   font-size: 2.7rem;
@@ -175,7 +176,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #F6F5F8;
+  background: #EEEDF3;
   overflow: hidden;
   justify-content: space-evenly;
 }
@@ -189,7 +190,7 @@ header nav {
 header nav a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: #282425;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -218,6 +219,12 @@ header .logo {
   flex-flow: column wrap;
   align-items: center;
   border-radius: 10px;
+  padding: 3%;
+}
+.intro .content:hover .fa-chevron-down {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
 .intro .content p {
   margin: 5% 0;
@@ -225,19 +232,11 @@ header .logo {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
-.intro .content button {
-  width: auto;
-  padding: 3% 3%;
-  border: 1px solid #000;
-  box-shadow: 2px 2px #777676;
-  background: rgba(255, 255, 255, 0.2);
-  color: #000;
-  border-radius: 12px;
-  transition: 300ms;
-}
-.intro .content button:hover {
-  background: rgba(255, 255, 255, 0.5);
+.intro .content .fa-chevron-down {
+  display: flex;
+  justify-content: center;
+  transition: 300ms ease;
 }
 .contentContainer {
-  background: #F6F5F8;
+  background: #EEEDF3;
 }
