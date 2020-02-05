@@ -80,9 +80,8 @@ table {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	color: @fontcolor;
-	font-size: 1.2rem;
-	font-weight: @fontBold * 2;
 }
+
 //
 
 html, body {
@@ -128,6 +127,8 @@ header {
 
 		a {
 			.aStyle();
+			font-size: 1.2rem;
+			font-weight: @fontBold * 2;
 			transition: 300ms ease;
 
 			&:hover {
@@ -147,6 +148,15 @@ header {
 .container {
 	width: 100%;
 	margin: auto;
+
+	h2::before { 
+		display: block; 
+		content: " "; 
+		margin-top: -99px; 
+		height: 99px; 
+		visibility: hidden; 
+		pointer-events: none;
+	  }
 }
 
 .intro {
@@ -160,6 +170,10 @@ header {
 	img {
 		border-radius: 50%;
 	}
+
+	a {
+		.aStyle();
+	}
 	.content {
 		.flexColumn();
 		align-items: center;
@@ -170,7 +184,7 @@ header {
 			-webkit-transform: scale(1.5);
 			-ms-transform: scale(1.5);
 			transform: scale(1.5);
-	}
+		}
 
 		p {
 			margin: 5% 0;
@@ -188,4 +202,13 @@ header {
 
 .contentContainer {
 	background: @pearl;
+}
+
+section {
+	.flexRow();
+	width: 100%;
+	height: 50vh;
+	padding: 2%;
+	// margin: auto;
+	border-bottom: 1px solid @fontcolor;
 }

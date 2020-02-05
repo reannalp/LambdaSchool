@@ -146,8 +146,6 @@ table {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: #282425;
-  font-size: 1.2rem;
-  font-weight: 600;
 }
 html,
 body {
@@ -211,6 +209,14 @@ header .logo {
   width: 100%;
   margin: auto;
 }
+.container h2::before {
+  display: block;
+  content: " ";
+  margin-top: -99px;
+  height: 99px;
+  visibility: hidden;
+  pointer-events: none;
+}
 .intro {
   display: flex;
   justify-content: space-evenly;
@@ -221,6 +227,11 @@ header .logo {
 }
 .intro img {
   border-radius: 50%;
+}
+.intro a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #282425;
 }
 .intro .content {
   display: flex;
@@ -247,4 +258,12 @@ header .logo {
 }
 .contentContainer {
   background: #EEEDF3;
+}
+section {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 50vh;
+  padding: 2%;
+  border-bottom: 1px solid #282425;
 }
