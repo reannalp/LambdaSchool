@@ -116,6 +116,10 @@ header {
 	overflow: hidden;
 	justify-content: space-evenly;
 
+	&:hover .logo {
+		transform: scaleY(-1);
+	}
+
 	nav {
 		.flexRow();
 		width: 70%;
@@ -124,13 +128,19 @@ header {
 
 		a {
 			.aStyle();
+			transition: 300ms ease;
+
+			&:hover {
+				color: @fontcolor + 80;
+			}
 		}
 	}
 
 	.logo {
 		width: 80px;
 		height: auto;
-		margin: 8px;
+		margin: 10px;
+		transition: all 800ms ease;
 	}
 }
 
@@ -174,7 +184,6 @@ header {
 			transition: 300ms ease;
 		}
 	}
-
 }
 
 .contentContainer {
