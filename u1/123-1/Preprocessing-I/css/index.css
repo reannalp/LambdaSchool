@@ -86,9 +86,10 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -130,7 +131,113 @@ table {
 * {
   box-sizing: border-box;
 }
+.flex {
+  display: flex;
+}
+.flexRow {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flexColumn {
+  display: flex;
+  flex-flow: column wrap;
+}
+.aStyle {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 html,
 body {
   height: 100%;
+  background: url(/assets/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  font-size: 2.7rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  text-shadow: 2px 2px #777676;
+}
+h2 {
+  font-size: 1.6rem;
+  text-shadow: 1px 1px #777676;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #F6F5F8;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+header nav {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70%;
+  justify-content: space-evenly;
+  align-content: center;
+}
+header nav a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+header .logo {
+  width: 80px;
+  height: auto;
+  margin: 8px;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  color: #000;
+}
+.intro img {
+  border-radius: 50%;
+}
+.intro .content {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border-radius: 10px;
+}
+.intro .content p {
+  margin: 5% 0;
+  padding: 20px 10px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.intro .content button {
+  width: auto;
+  padding: 3% 3%;
+  border: 1px solid #000;
+  box-shadow: 2px 2px #777676;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000;
+  border-radius: 12px;
+  transition: 300ms;
+}
+.intro .content button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.contentContainer {
+  background: #F6F5F8;
 }

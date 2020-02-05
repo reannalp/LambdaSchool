@@ -1,12 +1,14 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +16,105 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header class="header">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Skills</a>
+      <a href="#">Experience</a>
+      <a href="#">Achievements</a>
+      <a href="#">Contact</a>
+    </nav>
+    <img class="logo" src="/assets/logo.png" alt="Owl cave symbol logo">
+  </header>
+
+  <div class="container">
+    <section class="intro">
+      <div class="content">
+        <h1>Dale B. Cooper</h1>
+        <p>Special Agent with the Federal Bureau of Investigation</p>
+        <button>View More</button>
+      </div>
+      <div class="image">
+        <img src="/assets/introimg.jpg" alt="Dale Cooper holding tape recorder">
+      </div>
+    </section>
+    <div class="contentContainer">
+      <section class="skills">
+        <div class="content">
+          <h2>Skills</h2>
+          <p>content and things and stuff and stuff and things.</p>
+          <ul>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+          </ul>
+        </div>
+      </section>
+      <section class="experience">
+        <div class="content">
+          <h2>Work Experience</h2>
+          <p>content and things and stuff and stuff and things.</p>
+          <ul>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+          </ul>
+        </div>
+      </section>
+      <section class="achievements">
+        <div class="content">
+          <h2>Achievements</h2>
+          <p>content and things and stuff and stuff and things.</p>
+          <ul>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+            <li>Stuff</li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <form method="post" action="#">
+          <div class="fields">
+            <div class="contactName">
+              <label for="name">Name</label>
+              <input type="text" name="name" value="">
+            </div>
+            <div class="contactEmail">
+              <label for="email">Email</label>
+              <input type="email" name="email" value="">
+            </div>
+            <div class="message">
+              <label for="message">Message</label>
+              <textarea name="message" rows="10"></textarea>
+            </div>
+          </div>
+          <input type="submit" name="submit" value="Send Message">
+        </form>
+      </section>
+    
+    <footer class="indexFooter">
+      <div class="socialMedia">
+        <ul class="icons">
+          <li><a href="#"><img src="#"></a></li>
+          <li><a href="#"><img src="#"></a></li>
+          <li><a href="#"><img src="#"></a></li>
+          <li><a href="#"><img src="#"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        Copyright Reanna LaCasse 2020
+      </div>
+    </footer>
+  </div>
+  </div>
 </body>
+
 </html>
