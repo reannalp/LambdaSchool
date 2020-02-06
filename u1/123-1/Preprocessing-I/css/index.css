@@ -362,9 +362,21 @@ header .logo {
 .contentContainer .contact .content .address {
   font-size: 1.2rem;
 }
+.contentContainer .contact .content .socialMedia {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.contentContainer .contact .content .socialMedia a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #282425;
+}
 .contentContainer .contact .content .socialMedia .icons {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 .contentContainer footer {
   display: flex;
