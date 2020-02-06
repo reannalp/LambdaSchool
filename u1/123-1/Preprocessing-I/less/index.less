@@ -65,7 +65,10 @@ table {
 .flex {
 	display: flex;
 }
-
+.flexLeft {
+	display: flex;
+	flex-flow: row-reverse wrap;
+}
 .flexRow {
 	display: flex;
 	flex-flow: row wrap;
@@ -82,10 +85,28 @@ table {
 	color: @fontcolor;
 }
 
-.vignette {
-	-webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
-	-moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
-	box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
+.contentImage {
+	height: 80%;
+	width: auto;
+	border-radius: 50px;
+}
+.contentText {
+	.flexColumn();
+	align-items: center;
+	border-radius: 10px;
+	padding: 3%;
+
+	p {
+		margin: 5% 0;
+		padding: 20px 10px;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+	}	
+}
+.contentSections {
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
 }
 
 //
@@ -162,7 +183,7 @@ header {
 		height: 99px; 
 		visibility: hidden; 
 		pointer-events: none;
-	  }
+	}
 }
 
 .intro {
@@ -181,22 +202,12 @@ header {
 		.aStyle();
 	}
 	.content {
-		.flexColumn();
-		align-items: center;
-		border-radius: 10px;
-		padding: 3%;
-	
+		.contentText();
+
 		&:hover .fa-chevron-down {
 			-webkit-transform: scale(1.5);
 			-ms-transform: scale(1.5);
 			transform: scale(1.5);
-		}
-
-		p {
-			margin: 5% 0;
-			padding: 20px 10px;
-			border-bottom: 1px solid black;
-			border-top: 1px solid black;
 		}
 		.fa-chevron-down {
 			.flex();
@@ -209,19 +220,49 @@ header {
 .contentContainer {
 	background: @pearl;
 	.flexRow();
-
-	.skills {
-		.flexRow();
-		justify-content: space-between;
-		padding: 0;
-		#skillsImg {
-			height: 100%;
-			width: auto;
+	img{
+		.contentImage();
+	}
+	.skills, .achievements {
+		.flexLeft();
+		.contentSections();
+		.content{
+			.contentText();	
 		}
 	}
-
-	.left {
-		flex-direction: row-reverse;
+	.experience {
+		.flexRow();
+		.contentSections();
+		background: @shadow + 200;
+		.content {
+			.contentText();
+		}
+	}
+	.contact {
+		.flexRow();
+		.contentSections();
+		background: @shadow + 200;
+		.content {
+			.contentText();
+			line-height: 2;
+			.address {
+				font-size: 1.2rem; 
+			}
+			.socialMedia {
+				.icons {
+					.flexRow();
+				}
+			}
+		}
+	}
+	footer {
+		.flex();
+		width: 100%;
+		justify-content: center;
+		padding: 2%;
+		.copyright {
+			font-size: 0.9rem;
+		}
 	}
 }
 
