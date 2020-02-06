@@ -147,6 +147,11 @@ table {
   font-family: 'Roboto', sans-serif;
   color: #282425;
 }
+.vignette {
+  -webkit-box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
+}
 html,
 body {
   height: 100%;
@@ -258,6 +263,21 @@ header .logo {
 }
 .contentContainer {
   background: #EEEDF3;
+  display: flex;
+  flex-flow: row wrap;
+}
+.contentContainer .skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+.contentContainer .skills #skillsImg {
+  height: 100%;
+  width: auto;
+}
+.contentContainer .left {
+  flex-direction: row-reverse;
 }
 section {
   display: flex;

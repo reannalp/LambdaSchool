@@ -82,6 +82,12 @@ table {
 	color: @fontcolor;
 }
 
+.vignette {
+	-webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
+	-moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
+	box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
+}
+
 //
 
 html, body {
@@ -202,7 +208,23 @@ header {
 
 .contentContainer {
 	background: @pearl;
+	.flexRow();
+
+	.skills {
+		.flexRow();
+		justify-content: space-between;
+		padding: 0;
+		#skillsImg {
+			height: 100%;
+			width: auto;
+		}
+	}
+
+	.left {
+		flex-direction: row-reverse;
+	}
 }
+
 
 section {
 	.flexRow();
