@@ -131,6 +131,9 @@ table {
 * {
   box-sizing: border-box;
 }
+@-ms-viewport {
+  width: device-width;
+}
 .flex {
   display: flex;
 }
