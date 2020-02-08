@@ -1,3 +1,14 @@
+.aStyle {
+  text-decoration: none;
+  color: #212529;
+  font-size: 2rem;
+}
+.buttonStyle {
+  background: #17A2B8;
+  color: #212529;
+  font-size: 2rem;
+  border-radius: 10px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -169,14 +180,39 @@ img {
   margin: 0 auto;
 }
 header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
-  justify-content: center;
+  margin: auto;
+  padding: 2% 1%;
+  border-bottom: 2px dashed #C0C0C0;
 }
-header .logo {
+header .navContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 800px;
+  margin: auto;
+  justify-content: space-between;
+}
+header .navContainer .logo {
+  width: 20%;
+}
+header .navContainer nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 40%;
+  color: #212529;
+  justify-content: flex-end;
+  align-items: center;
 }
-header nav {
-  width: 60%;
+header .navContainer nav a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 2rem;
+  padding: 0 5%;
 }
 .footer {
   width: 100%;
@@ -188,6 +224,15 @@ header nav {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .intro-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .intro-section .text-content {
+  padding-top: 30px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -234,4 +279,10 @@ header nav {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  background: #17A2B8;
+  color: #212529;
+  font-size: 2rem;
+  border-radius: 10px;
 }

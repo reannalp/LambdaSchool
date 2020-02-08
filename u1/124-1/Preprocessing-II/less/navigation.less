@@ -1,13 +1,28 @@
 // Navigation Styles here
 header {
+    .flex();
     width: 100%;
-    justify-content: center;
-
-    .logo {
-        width: 40%;
-    }
-    nav {
+    margin: auto;
+    padding: 2% 1%;
+    border-bottom: 2px dashed @silver;
+    .navContainer {
         .flex();
-        width: 60%;
+        width: 800px;
+        margin: auto;
+        justify-content: space-between;
+        .logo {
+            width: 20%;
+        }
+        nav {
+            .flex();
+            width: 40%;
+            color: @font-color;
+            justify-content: flex-end;
+            align-items: center;
+            a {
+                .aStyle();
+                padding: 0 5%;
+            }
+        }
     }
 }
