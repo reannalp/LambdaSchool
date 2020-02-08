@@ -168,6 +168,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  width: 100%;
+  justify-content: center;
+}
+header .logo {
+  width: 40%;
+}
+header nav {
+  width: 60%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
