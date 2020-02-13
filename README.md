@@ -19,7 +19,7 @@
 - [X] [Sprint Challenge - Advanced CSS](https://github.com/reannalp/Sprint-Challenge--Advanced-CSS/tree/reanna-perez)
 
 #### Sprint 3 - Javascript Fundamentals
-- [ ] Javascript I
+- [X] [Javascript I](https://github.com/reannalp/LambdaSchool/tree/131-1/u1/131-1/JS-Exercise-Functions-Arrays-Objects)
 - [ ] Javascript II
 - [ ] Javascript III
 - [ ] Javascript IV
