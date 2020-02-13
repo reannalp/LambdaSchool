@@ -26,4 +26,4 @@
 - [ ] Sprint Challenge - Javescript Foundations
 
 
-## Idea for this repository adapted from @evoingram's [LambdaSchool](https://github.com/evoingram/LambdaSchool/) repository.
+##### Idea for this repository adapted from @evoingram's [LambdaSchool](https://github.com/evoingram/LambdaSchool/) repository.
