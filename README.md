@@ -24,3 +24,6 @@
 - [ ] Javascript III
 - [ ] Javascript IV
 - [ ] Sprint Challenge - Javescript Foundations
+
+
+## Idea for this repository adapted from @evoingram's [LambdaSchool](https://github.com/evoingram/LambdaSchool/) repository.
