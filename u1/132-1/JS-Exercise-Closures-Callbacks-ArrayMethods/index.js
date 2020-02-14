@@ -185,7 +185,7 @@ function getFullNames(runners) {
   const newRunners = [];
   runners.forEach(runners => newRunners.push(`${runners.last_name}, ${runners.first_name}`))
   return newRunners;
-} 
+}
 
 /**
  * ### Challenge `firstNamesAllCaps`
@@ -200,8 +200,8 @@ function getFullNames(runners) {
  * The first names appear in the array in the same order the runners appear in the `runners` array.
 */
 function firstNamesAllCaps(runners) {
-  //
-}
+  return runners.map(runners => (x) => x);
+} //? - Left off working on this one. No ideas.
 
 /**
  * ### Challenge `getRunnersByTShirtSize`
