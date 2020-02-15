@@ -284,10 +284,11 @@ function counterMakerWithLimit(maxValue) {
     if(count <= maxValue){
       return count++;
     } else {
-      return count = 0;
+      count = 0;
+      return count++;
     }
-  }
-} // please halp
+  } 
+}
 
 /////////////// END OF CHALLENGE ///////////////
 /////////////// END OF CHALLENGE ///////////////
