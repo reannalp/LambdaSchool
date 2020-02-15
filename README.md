@@ -14,13 +14,13 @@
 #### Sprint 2 - Advanced CSS
 - [X] [Responsive Design I](https://github.com/reannalp/LambdaSchool/tree/master/u1/121-1/responsive-web-design-I)
 - [X] [Responsive Design II](https://github.com/reannalp/LambdaSchool/tree/master/u1/122-1/portfolio-website) | [Live site](https://reannalp.github.io)
-- [X] [Preprocessing I](https://github.com/reannalp/LambdaSchool/tree/123-1/u1/123-1/Preprocessing-I) | [Live site](https://reannalp.github.io/cooper/)
-- [X] [Preprocessing II](https://github.com/reannalp/LambdaSchool/tree/124-1/u1/124-1/Preprocessing-II)
+- [X] [Preprocessing I](https://github.com/reannalp/LambdaSchool/tree/master/u1/123-1/Preprocessing-I) | [Live site](https://reannalp.github.io/cooper/)
+- [X] [Preprocessing II](https://github.com/reannalp/LambdaSchool/tree/master/u1/124-1/Preprocessing-II)
 - [X] [Sprint Challenge - Advanced CSS](https://github.com/reannalp/Sprint-Challenge--Advanced-CSS/tree/reanna-perez)
 
 #### Sprint 3 - Javascript Fundamentals
 - [X] [Javascript I](https://github.com/reannalp/LambdaSchool/tree/131-1/u1/131-1/JS-Exercise-Functions-Arrays-Objects)
-- [ ] Javascript II
+- [X] [Javascript II](https://github.com/reannalp/LambdaSchool/tree/132-1/u1/132-1/JS-Exercise-Closures-Callbacks-ArrayMethods)
 - [ ] Javascript III
 - [ ] Javascript IV
 - [ ] Sprint Challenge - Javescript Foundations
