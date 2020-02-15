@@ -131,6 +131,9 @@ table {
 * {
   box-sizing: border-box;
 }
+@-ms-viewport {
+  width: device-width;
+}
 .flex {
   display: flex;
 }
@@ -194,6 +197,12 @@ h2 {
   text-shadow: 1px 1px #777676;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
+}
+strong {
+  font-weight: 600;
+}
+ul {
+  line-height: 2;
 }
 header {
   display: flex;
@@ -452,7 +461,7 @@ section {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   padding: 2%;
   border-bottom: 1px solid #282425;
 }
