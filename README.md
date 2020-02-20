@@ -21,7 +21,7 @@
 #### Sprint 3 - Javascript Fundamentals
 - [X] [Javascript I](https://github.com/reannalp/LambdaSchool/tree/131-1/u1/131-1/JS-Exercise-Functions-Arrays-Objects)
 - [X] [Javascript II](https://github.com/reannalp/LambdaSchool/tree/132-1/u1/132-1/JS-Exercise-Closures-Callbacks-ArrayMethods)
-- [ ] Javascript III
+- [X] [Javascript III](https://github.com/reannalp/LambdaSchool/tree/133-1/u1/133-1/JS-Exercise-Prototype)
 - [ ] Javascript IV
 - [ ] Sprint Challenge - Javescript Foundations
 
