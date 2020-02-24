@@ -19,10 +19,10 @@
 - [X] [Sprint Challenge - Advanced CSS](https://github.com/reannalp/Sprint-Challenge--Advanced-CSS/tree/reanna-perez)
 
 #### Sprint 3 - Javascript Fundamentals
-- [X] [Javascript I](https://github.com/reannalp/LambdaSchool/tree/131-1/u1/131-1/JS-Exercise-Functions-Arrays-Objects)
-- [X] [Javascript II](https://github.com/reannalp/LambdaSchool/tree/132-1/u1/132-1/JS-Exercise-Closures-Callbacks-ArrayMethods)
+- [X] [Javascript I](https://github.com/reannalp/LambdaSchool/tree/master/u1/131-1/JS-Exercise-Functions-Arrays-Objects)
+- [X] [Javascript II](https://github.com/reannalp/LambdaSchool/tree/master/u1/132-1/JS-Exercise-Closures-Callbacks-ArrayMethods)
 - [X] [Javascript III](https://github.com/reannalp/LambdaSchool/tree/133-1/u1/133-1/JS-Exercise-Prototype)
-- [ ] Javascript IV
+- [X] [Javascript IV](https://github.com/reannalp/LambdaSchool/tree/134-1/u1/134-1/JS-Exercise-Classes)
 - [ ] Sprint Challenge - Javescript Foundations
 
 
