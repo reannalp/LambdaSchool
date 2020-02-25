@@ -1,7 +1,7 @@
 # LambdaSchool
 
 #### File/Branch System: 
->UnitSprintModule-Project `112-1 indicates Unit 1, Sprint 1, Module 2, Project 1`
+>UnitSprintModule-Project `112 indicates Unit 1, Sprint 1, Module 2`
 
 ## Unit 1 - Web Fundamentals
 #### Sprint 1 - User Interface & Git
@@ -23,7 +23,29 @@
 - [X] [Javascript II](https://github.com/reannalp/LambdaSchool/tree/master/u1/132-1/JS-Exercise-Closures-Callbacks-ArrayMethods)
 - [X] [Javascript III](https://github.com/reannalp/LambdaSchool/tree/133-1/u1/133-1/JS-Exercise-Prototype)
 - [X] [Javascript IV](https://github.com/reannalp/LambdaSchool/tree/134-1/u1/134-1/JS-Exercise-Classes)
-- [ ] Sprint Challenge - Javescript Foundations
+- [X] [Sprint Challenge - Javescript Foundations](https://github.com/reannalp/Sprint-Challenge--JavaScript/tree/reanna-perez)
 
+#### Unit 1 Build - Web UI Developer
+
+## Unit 2 - Web Applications I
+#### Sprint 1 - Applied Javascript
+- [ ] DOM I
+- [ ] DOM II
+- [ ] Components I
+- [ ] Components II
+
+#### Sprint 2 - Intro to React
+- [ ] React Components and Component State
+- [ ] Composing React Components and Passing Data Via Props
+- [ ] Component Side Effects
+- [ ] Advanced Styling Techniques
+
+#### Sprint 3 - Single Page Applications
+- [ ] React Router I
+- [ ] React Router II
+- [ ] Form Management
+- [ ] Advanced Form Management
+
+#### Unit 2 Build - Front End Developer
 
 ##### Idea for this repository adapted from @evoingram's [LambdaSchool](https://github.com/evoingram/LambdaSchool/) repository.
