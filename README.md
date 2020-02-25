@@ -1,7 +1,7 @@
 # LambdaSchool
 
 #### File/Branch System: 
->UnitSprintModule-Project `112 indicates Unit 1, Sprint 1, Module 2`
+> 112 indicates Unit 1, Sprint 1, Module 2
 
 ## Unit 1 - Web Fundamentals
 #### Sprint 1 - User Interface & Git
