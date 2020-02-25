@@ -23,7 +23,7 @@
 - [X] [Javascript II](https://github.com/reannalp/LambdaSchool/tree/master/u1/132-1/JS-Exercise-Closures-Callbacks-ArrayMethods)
 - [X] [Javascript III](https://github.com/reannalp/LambdaSchool/tree/133-1/u1/133-1/JS-Exercise-Prototype)
 - [X] [Javascript IV](https://github.com/reannalp/LambdaSchool/tree/134-1/u1/134-1/JS-Exercise-Classes)
-- [X] [Sprint Challenge - Javescript Foundations](https://github.com/reannalp/Sprint-Challenge--JavaScript/tree/reanna-perez)
+- [X] [Sprint Challenge - Javascript Foundations](https://github.com/reannalp/Sprint-Challenge--JavaScript/tree/reanna-perez)
 
 #### Unit 1 Build - Web UI Developer
 
