@@ -39,8 +39,21 @@ Airplane.prototype.land = function () {
         + It should return a string with `name` and `age`. Example: "Mary, 50"
 */
 
-function Person() {
-
+function Person(name, age) {
+  this.stomach = [],
+  this.name = name,
+  this.age = age
+};
+Person.prototype.eat = function(someFood){
+  if (this.stomach.length <= 9){
+    return this.stomach.push(someFood);
+  }
+}
+Person.prototype.poop = function(){
+  return this.stomach = []
+}
+Person.prototype.toString = function(){
+  return `${this.name}, ${this.age}`
 }
 
 /*
@@ -57,10 +70,24 @@ function Person() {
         + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
 */
 
-function Car() {
-
-}
-
+function Car(model, milesPerGallon) {
+  this.model = model,
+  this.milesPerGallon = milesPerGallon,
+  this.tank = 0,
+  this.odometer = 0
+};
+Car.prototype.fill = function(gallons) {
+  this.tank = this.tank + gallons
+};
+Car.prototype.drive = function(distance){
+  if(this.tank - (distance/this.milesPerGallon) <= 0) {
+  this.odometer = this.milesPerGallon * this.tank;
+  this.tank = 0;
+  return `I ran out of fuel at ${this.odometer} miles!`;
+};
+this.odometer = this.odometer + distance;
+this.tank = this.tank - (distance/this.milesPerGallon)
+};
 /*
   TASK 3
     - Write a Baby constructor subclassing Person.
@@ -68,9 +95,15 @@ function Car() {
     - Besides the methods on Person.prototype, babies have the ability to `.play()`:
         + Should return a string "Playing with x", x being the favorite toy.
 */
-function Baby() {
-
-}
+function Baby(name, age, favoriteToy) {
+  this.name = name,
+  this.age = age,
+  this.favoriteToy = favoriteToy
+};
+Baby.prototype = Object.create(Person.prototype);
+Baby.prototype.play = function() {
+  return `Playing with ${this.favoriteToy}`;
+};
 
 /* 
   TASK 4
