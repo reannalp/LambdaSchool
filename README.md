@@ -25,7 +25,7 @@
 - [X] [Javascript IV](https://github.com/reannalp/LambdaSchool/tree/master/u1/134/JS-Exercise-Classes)
 - [X] [Sprint Challenge - Javascript Foundations](https://github.com/reannalp/Sprint-Challenge--JavaScript/tree/reanna-perez)
 
-#### Unit 1 Build - Web UI Developer
+#### Unit 1 Build - [Web UI Developer](https://github.com/Sleep-tracker-1/Front_End_Marketing) | [Live Site](https://sleep-tracker-1.github.io/Front_End_Marketing/index.html)
 
 ## Unit 2 - Web Applications I
 #### Sprint 1 - Applied Javascript
