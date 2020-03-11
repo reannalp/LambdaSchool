@@ -105,3 +105,13 @@ newLink2.textContent = "My GitHub";
 newLink2.href = "https://github.com/reannalp";
 newLink2.style.color = "dodgerblue";
 nav.prepend(newLink2);
+
+// stretch goals
+mainText[0].style.fontWeight = "bold";
+
+let contactContainer = document.querySelector('.contact');
+contactContainer.style.display = "flex";
+contactContainer.style.flexDirection = "column";
+contactContainer.style.alignItems = "center";
+contact[1].innerHTML = "123 Way 456 Street<br>Somewhere, USA";
+contact[1].style.textAlign = "center";
