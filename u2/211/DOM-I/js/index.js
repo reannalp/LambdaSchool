@@ -78,11 +78,30 @@ mainText[2].textContent = siteContent["main-content"]["services-content"];
 mainText[3].textContent = siteContent["main-content"]["product-content"];
 mainText[4].textContent = siteContent["main-content"]["vision-content"];
 
+//contact
 let contact = document.querySelector('.contact').children;
 contact[0].textContent = siteContent.contact["contact-h4"];
 contact[1].textContent = siteContent.contact.address;
 contact[2].textContent = siteContent.contact.phone;
 contact[3].textContent = siteContent.contact.email;
 
+//footer
 let footer = document.querySelector('footer p');
 footer.textContent = siteContent.footer.copyright;
+
+// new content
+navLinks.forEach(text => text.style.color = "green");
+
+let nav = document.querySelector('nav');
+
+let newLink1 = document.createElement('a');
+newLink1.textContent = "My LinkedIn";
+newLink1.href = "https://linkedin.com/in/reannalp";
+newLink1.style.color = "dodgerblue";
+nav.appendChild(newLink1);
+
+let newLink2 = document.createElement('a');
+newLink2.textContent = "My GitHub";
+newLink2.href = "https://github.com/reannalp";
+newLink2.style.color = "dodgerblue";
+nav.prepend(newLink2);
