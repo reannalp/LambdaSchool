@@ -30,7 +30,7 @@
 
 ## Unit 2 - Web Applications I
 #### Sprint 1 - Applied Javascript
-- [ ] DOM I
+- [X] [DOM I](https://github.com/reannalp/LambdaSchool/tree/master/u2/211/DOM-I)
 - [ ] DOM II
 - [ ] Components I
 - [ ] Components II
