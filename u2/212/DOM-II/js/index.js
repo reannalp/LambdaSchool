@@ -54,3 +54,10 @@ const adventure = document.querySelector('.img-content');
 adventure.addEventListener('mousedown', () => {
   adventure.style.display = "none";
 }); //10
+
+const buttons = document.querySelectorAll('.btn');
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    gsap.to('.btn', {duration: 2, rotation: 360});
+  });
+});
