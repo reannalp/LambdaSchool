@@ -60,4 +60,4 @@ buttons.forEach(btn => {
   btn.addEventListener('click', () => {
     gsap.to('.btn', {duration: 2, rotation: 360});
   });
-});
+}); //stretch
