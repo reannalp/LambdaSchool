@@ -102,13 +102,52 @@ const data = [
   Hint: You will need to use createElement more than once here!
 
   Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
+  */
 
-  Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
+const createArticle = (data) => {
+  const article = document.createElement('div')
+  const title = document.createElement('h2')
+  const date = document.createElement('p')
+  const p1 = document.createElement('p')
+  const p2 = document.createElement('p')
+  const p3 = document.createElement('p')
+  const button = document.createElement('span')
 
-  Step 3: return the entire component.
+  article.appendChild(title)
+  article.appendChild(date)
+  article.appendChild(p1)
+  article.appendChild(p2)
+  article.appendChild(p3)
+  article.appendChild(button)
 
-  Step 4: Map over the data, creating a component for each oject and add each component to the DOM as children of the 'articles' div.
+  article.classList.add('article')
+  date.classList.add('date')
+  button.classList.add('expandButton')
 
-  Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
+  title.textContent = data.title
+  date.textContent = data.date
+  p1.textContent = data.firstParagraph
+  p2.textContent = data.secondParagraph
+  p3.textContent = data.thirdParagraph
+  button.textContent = '\u25bc'
+  // Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
+  button.addEventListener('click', () => {
+    article.classList.toggle('article-open')
+  })
+  
+  // Step 3: return the entire component.
+  return article
+}
 
-*/
+  // Step 4: Map over the data, creating a component for each oject and add each component to the DOM as children of the 'articles' div.
+  const container = document.querySelector('.articles')
+  data.forEach(article => container.appendChild(createArticle(article)))
+
+  // Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
+  container.appendChild(createArticle({
+    title: "I Must Not Fear",
+    date: "August 1, 1965",
+    firstParagraph: "Fear is the mind-killer. Fear is the little-death that brings total obliteration.",
+    secondParagraph: "I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path.",
+    thirdParagraph: "Where the fear has gone there will be nothing. Only I will remain."
+  }))
