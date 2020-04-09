@@ -31,9 +31,9 @@
 ## Unit 2 - Web Applications I
 #### Sprint 1 - Applied Javascript
 - [X] [DOM I](https://github.com/reannalp/LambdaSchool/tree/master/u2/211/DOM-I)
-- [ ] DOM II
-- [ ] Components I
-- [ ] Components II
+- [X] [DOM II](https://github.com/reannalp/LambdaSchool/tree/master/u2/212/DOM-II)
+- [X] [Components I](https://github.com/reannalp/LambdaSchool/tree/master/u2/213/Newsfeed-Components)
+- [X] Components II
 
 #### Sprint 2 - Intro to React
 - [ ] React Components and Component State
