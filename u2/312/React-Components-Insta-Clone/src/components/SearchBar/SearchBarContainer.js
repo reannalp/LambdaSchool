@@ -5,11 +5,13 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faHeart, faCircle, faCompass } from '@fortawesome/free-regular-svg-icons'
 import "./SearchBar.css";
 
+const iglogo = <FontAwesomeIcon icon={faInstagram} />
+
 const SearchBar = () => {
   return (
     <div className="search-bar-wrapper">
       <div className="social">
-        <FontAwesomeIcon icon={faInstagram} />
+        <div className="logo">{iglogo}<img className="wordmark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="instagram"/></div>
       </div>
       <form className="search-form">
         <input
